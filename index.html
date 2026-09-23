@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Restoran Nikmat Rasa</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>RESTORAN NIKMAT RASA</h1>
+    <p>Makanan Lezat dengan Harga Terjangkau</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#menu">Menu</a>
+    <a href="#pemesanan">Cara Pemesanan</a>
+    <a href="#video">Video</a>
+    <a href="#kontak">Kontak</a>
+</nav>
+
+<div class="container">
+
+    
+    <div class="menu" id="home">
+
+        <h2>Selamat Datang</h2>
+
+        <p>
+            Selamat datang di Restoran Nikmat Rasa.
+            Kami menyediakan berbagai makanan, minuman,
+            dan dessert dengan harga yang terjangkau.
+        </p>
+
+        <p>
+            Silakan pilih menu yang tersedia dan tentukan
+            jumlah pesanan sesuai kebutuhan Anda.
+        </p>
+
+    </div>
+
+
+   
+    <div class="menu">
+
+        <h2>Kategori Menu Restoran</h2>
+
+        <p>
+            Restoran Nikmat Rasa menyediakan beberapa kategori
+            menu yang dapat dipilih oleh pelanggan.
+        </p>
+
+        <ol>
+
+            <li>
+                Makanan
+
+                <ul class="kategori">
+                    <li>Nasi Goreng Spesial</li>
+                    <li>Mie Goreng Ayam</li>
+                    <li>Ayam Bakar</li>
+                    <li>Soto Ayam</li>
+                    <li>Bakso Spesial</li>
+                </ul>
+
+            </li>
+
+            <li>
+                Minuman
+
+                <ul class="kategori">
+                    <li>Es Teh Manis</li>
+                    <li>Es Jeruk</li>
+                    <li>Kopi Hitam</li>
+                    <li>Jus Alpukat</li>
+                    <li>Air Mineral</li>
+                </ul>
+
+            </li>
+
+            <li>
+                Dessert
+
+                <ul class="kategori">
+                    <li>Puding Cokelat</li>
+                    <li>Es Krim</li>
+                    <li>Salad Buah</li>
+                </ul>
+
+            </li>
+
+            ]
+        </ol>
+
+    </div>
+
+
+    <div class="menu" id="menu">
+
+        <h2>Daftar Harga Menu Restoran</h2>
+
+        <h3>Menu Makanan</h3>
+
+
+        <div class="item">
+
+            <div class="item-info">
+
+                <div class="item-name">
+                    Nasi Goreng Spesial
+                </div>
+
+                <div class="price">
+                    $2.00
+                </div>
+
+            </div>
+
+            <input
+                class="jumlah"
+                type="number"
+                min="0"
+                value="0"
+                data-name="Nasi Goreng Spesial"
+                data-price="2"
+            >
+
+        </div>
+
+
+        <div class="item">
+
+            <div class="item-info">
+
+                <div class="item-name">
+                    Mie Goreng Ayam
+                </div>
+
+                <div class="price">
+                    $1.80
+                </div>
+
+            </div>
+
+            <input
+                class="jumlah"
+                type="number"
+                min="0"
+                value="0"
+                data-name="Mie Goreng Ayam"
+                data-price="1.8"
+            >
+
+        </div>
+
+
+        <div class="item">
+
+            <div class="item-info">
+
+                <div class="item-name">
+                    Ayam Bakar
+                </div>
+
+                <div class="price">
+                    $2.50
+                </div>
+
+            </div>
+
+            <input
+                class="jumlah"
+                type="number"
+                min="0"
+                value="0"
+                data-name="Ayam Bakar"
+                data-price="2.5"
+            >
+
+        </div>
+
+
+        <div class="item">
+
+            <div class="item-info">
+
+                <div class="item-name">
+                    Soto Ayam
+                </div>
+
+                <div class="price">
+                    $1.50
+                </div>
+
+            </div>
+
+            <input
+                class="jumlah"
+                type="number"
+                min="0"
+                value="0"
+                data-name="Soto Ayam"
+                data-price="1.5"
+            >
+
+        </div>
+
+
+        <div class="item">
+
+            <div class="item-info">
+
+                <div class="item-name">
+                    Bakso Spesial
+                </div>
+
+                <div class="price">
+                    $1.70
+                </div>
+
+            </div>
+
+            <input
+                class="jumlah"
+                type="number"
+                min="0"
+                value="0"
+                data-name="Bakso Spesial"
+                data-price="1.7"
+            >
+
+        </div>
+
+
+        <h3>Menu Minuman</h3>
+
+
+        <div class="item">
+
+            <div class="item-info">
+
+                <div class="item-name">
+                    Es Teh Manis
+                </div>
+
+                <div class="price">
+                    $0.50
+                </div>
+
+            </div>
+
+            <input
+                class="jumlah"
+                type="number"
+                min="0"
+                value="0"
+                data-name="Es Teh Manis"
+                data-price="0.5"
+            >
+
+        </div>
+
+
+        <div class="item">
+
+            <div class="item-info">
+
+                <div class="item-name">
+                    Es Jeruk
+                </div>
+
+                <div class="price">
+                    $0.70
+                </div>
+
+            </div>
+
+            <input
+                class="jumlah"
+                type="number"
+                min="0"
+                value="0"
+                data-name="Es Jeruk"
+                data-price="0.7"
+            >
+
+        </div>
+
+
+        <div class="item">
+
+            <div class="item-info">
+
+                <div class="item-name">
+                    Kopi Hitam
+                </div>
+
+                <div class="price">
+                    $0.80
+                </div>
+
+            </div>
+
+            <input
+                class="jumlah"
+                type="number"
+                min="0"
+                value="0"
+                data-name="Kopi Hitam"
+                data-price="0.8"
+            >
+
+        </div>
+
+
+        <div class="item">
+
+            <div class="item-info">
+
+                <div class="item-name">
+                    Jus Alpukat
+                </div>
+
+                <div class="price">
+                    $1.20
+                </div>
+
+            </div>
+
+            <input
+                class="jumlah"
+                type="number"
+                min="0"
+                value="0"
+                data-name="Jus Alpukat"
+                data-price="1.2"
+            >
+
+        </div>
+
+
+        <div class="item">
+
+            <div class="item-info">
+
+                <div class="item-name">
+                    Air Mineral
+                </div>
+
+                <div class="price">
+                    $0.40
+                </div>
+
+            </div>
+
+            <input
+                class="jumlah"
+                type="number"
+                min="0"
+                value="0"
+                data-name="Air Mineral"
+                data-price="0.4"
+            >
+
+        </div>
+
+
+       
+        <h3>Menu Dessert</h3>
+
+
+        <div class="item">
+
+            <div class="item-info">
+
+                <div class="item-name">
+                    Puding Cokelat
+                </div>
+
+                <div class="price">
+                    $1.00
+                </div>
+
+            </div>
+
+            <input
+                class="jumlah"
+                type="number"
+                min="0"
+                value="0"
+                data-name="Puding Cokelat"
+                data-price="1"
+            >
+
+        </div>
+
+
+        <div class="item">
+
+            <div class="item-info">
+
+                <div class="item-name">
+                    Es Krim
+                </div>
+
+                <div class="price">
+                    $1.20
+                </div>
+
+            </div>
+
+            <input
+                class="jumlah"
+                type="number"
+                min="0"
+                value="0"
+                data-name="Es Krim"
+                data-price="1.2"
+            >
+
+        </div>
+
+
+        <div class="item">
+
+            <div class="item-info">
+
+                <div class="item-name">
+                    Salad Buah
+                </div>
+
+                <div class="price">
+                    $1.50
+                </div>
+
+            </div>
+
+            <input
+                class="jumlah"
+                type="number"
+                min="0"
+                value="0"
+                data-name="Salad Buah"
+                data-price="1.5"
+            >
+
+        </div>
+
+
+        
+        <div class="total-box">
+
+            <p>
+                Jumlah Pesanan:
+                <span id="jumlahPesanan">0</span>
+            </p>
+
+            <p>Total Harga:</p>
+
+            <div class="total">
+                $<span id="totalHarga">0.00</span>
+            </div>
+
+            <button onclick="pesanWhatsApp()">
+                Pesan melalui WhatsApp
+            </button>
+
+        </div>
+
+    </div>
+
+
+   
+    <div class="menu" id="pemesanan">
+
+        <h2>Langkah-Langkah Pemesanan</h2>
+
+        <p>
+            Berikut adalah langkah-langkah yang dapat dilakukan
+            pelanggan untuk melakukan pemesanan makanan di
+            Restoran Nikmat Rasa.
+        </p>
+
+        <ol class="langkah">
+
+            <li>
+                Buka halaman menu Restoran Nikmat Rasa.
+            </li>
+
+            <li>
+                Pilih makanan, minuman, atau dessert
+                yang ingin dipesan.
+            </li>
+
+            <li>
+                Masukkan jumlah pesanan pada kolom jumlah.
+            </li>
+
+            <li>
+                Periksa jumlah pesanan dan total harga.
+            </li>
+
+            <li>
+                Klik tombol "Pesan melalui WhatsApp".
+            </li>
+
+            <li>
+                Periksa kembali pesanan yang muncul
+                di WhatsApp.
+            </li>
+
+            <li>
+                Kirim pesan kepada Restoran Nikmat Rasa.
+            </li>
+
+        </ol>
+
+    </div>
+
+
+    <div class="menu" id="video">
+
+        <h2>Video Promosi</h2>
+
+        <p>
+            Lihat video promosi Restoran Nikmat Rasa:
+        </p>
+
+        <video controls>
+
+            <source
+                src="video/video-promosi-restoran.mp4"
+                type="video/mp4"
+            >
+
+            Browser Anda tidak mendukung video.
+
+        </video>
+
+    </div>
+
+
+    <div class="menu kontak" id="kontak">
+
+        <h2>Kontak Kami</h2>
+
+        <p>
+            Restoran Nikmat Rasa
+        </p>
+
+        <p>
+            Jl. Merdeka No. 10, Tangerang, Banten
+        </p>
+
+        <p>
+            WhatsApp:
+            <a
+                href="https://wa.me/628557235383"
+                target="_blank"
+            >
+                +62 855-7235-383
+            </a>
+        </p>
+
+        <p>
+            Email:
+            <a href="mailto:akbarkevib@gmail.com">
+                akbarkevib@gmail.com
+            </a>
+        </p>
+
+    </div>
+
+</div>
+
+
+<footer>
+
+    <p>
+        &copy; 2026 Restoran Nikmat Rasa
+    </p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
